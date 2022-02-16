@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    position: relative;
+}
+
+.wrapper input {
+    font-size: 1rem;
+    padding: 10px;
+}
+
+.content {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.content button {
+    text-align: left;
+    font-size: 1rem;
+    background: #fff;
+    border: 0.5px solid gray;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.content button:hover {
+    background: #c2c2c2;
+}
+
+.content .bold {
+    font-weight: bold;
+}
